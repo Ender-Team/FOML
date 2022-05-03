@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "foml",
+  "version": "1.4.0",
+  "name": "FOML",
+  "description": "Fabric OBJ Model Loader",
+  "authors": [
+    "abused_master",
+    "EnderTheCoder"
+  ],
+  "contact": {
+    "homepage": "https://minecraft.curseforge.com/projects/FOML",
+    "sources": "https://github.com/OnyxStudios/FOML"
+  },
+  "license": "MIT",
+  "icon": "assets/foml/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "dev.ender.foml.FOML"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.7.0",
+    "fabric": "*"
+  },
+  "custom": {
+    "modmenu:api": true
+  }
+}
