@@ -1,26 +1,11 @@
 # FOML
- Fabric OBJ Model Loader
+Fabric OBJ Model Loader
+
 Ported to 1.18 by EnderTheCoder.
+
 Forked from https://github.com/OnyxStudios/FOML
 # Adding the API to your project
-
-```
-repositories {
-    maven {
-        name = "OnyxStudios"
-        url = "https://maven.abusedmaster.xyz"
-    }
-}
-
-dependencies {
-    modCompile "dev.onyxstudios:FOML:${foml_version}"
-    
-    // Includes FOML as a Jar in Jar dependency, Optional
-    include "dev.onyxstudios:FOML:${foml_version}"
-}
-```
-
-You can find current releases over at the [maven](https://maven.abusedmaster.xyz/com/github/OnyxStudios/FOML/)
+I don't care how you add this api to your project, go to build a jar yourself and add it to your gradle file.
 
 # How to use
 Getting started with FOML is very simple and easy to do.
